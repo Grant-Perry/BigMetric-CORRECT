@@ -1,0 +1,1426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4281C22A1FFF5900C696A6 /* BigMetricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281C12A1FFF5900C696A6 /* BigMetricApp.swift */; };
+		9B4281C42A1FFF5900C696A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281C32A1FFF5900C696A6 /* ContentView.swift */; };
+		9B4281C62A1FFF5A00C696A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4281C52A1FFF5A00C696A6 /* Assets.xcassets */; };
+		9B4281D32A1FFF5A00C696A6 /* BigMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281D22A1FFF5A00C696A6 /* BigMetricTests.swift */; };
+		9B4281DD2A1FFF5A00C696A6 /* BigMetricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281DC2A1FFF5A00C696A6 /* BigMetricUITests.swift */; };
+		9B4281DF2A1FFF5A00C696A6 /* BigMetricUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281DE2A1FFF5A00C696A6 /* BigMetricUITestsLaunchTests.swift */; };
+		9B4281EA2A1FFF5A00C696A6 /* BigMetricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281E92A1FFF5A00C696A6 /* BigMetricApp.swift */; };
+		9B4281EC2A1FFF5A00C696A6 /* BigMetriciOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281EB2A1FFF5A00C696A6 /* BigMetriciOSApp.swift */; };
+		9B4281FB2A1FFF5B00C696A6 /* BigMetric_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4281FA2A1FFF5B00C696A6 /* BigMetric_Watch_AppTests.swift */; };
+		9B4282052A1FFF5B00C696A6 /* BigMetric_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282042A1FFF5B00C696A6 /* BigMetric_Watch_AppUITests.swift */; };
+		9B4282072A1FFF5B00C696A6 /* BigMetric_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282062A1FFF5B00C696A6 /* BigMetric_Watch_AppUITestsLaunchTests.swift */; };
+		9B42821F2A20002900C696A6 /* DistanceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42821E2A20002900C696A6 /* DistanceTracker.swift */; };
+		9B4282212A20016F00C696A6 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282202A20016E00C696A6 /* WorkoutManager.swift */; };
+		9B4282232A2002F700C696A6 /* WeatherKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282222A2002F700C696A6 /* WeatherKitManager.swift */; };
+		9B4282272A2003DE00C696A6 /* GeoCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282262A2003DE00C696A6 /* GeoCodeHelper.swift */; };
+		9B42823E2A20040D00C696A6 /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282292A20040C00C696A6 /* AltitudeView.swift */; };
+		9B42823F2A20040D00C696A6 /* WeatherStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822A2A20040C00C696A6 /* WeatherStatsView.swift */; };
+		9B4282402A20040D00C696A6 /* AltitudePointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822B2A20040C00C696A6 /* AltitudePointChart.swift */; };
+		9B4282412A20040D00C696A6 /* smallDistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822C2A20040C00C696A6 /* smallDistanceView.swift */; };
+		9B4282422A20040D00C696A6 /* showHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822D2A20040C00C696A6 /* showHeartBeat.swift */; };
+		9B4282432A20040D00C696A6 /* howFarGPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822E2A20040C00C696A6 /* howFarGPS.swift */; };
+		9B4282442A20040D00C696A6 /* summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42822F2A20040C00C696A6 /* summary.swift */; };
+		9B4282452A20040D00C696A6 /* debugScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282302A20040D00C696A6 /* debugScreen.swift */; };
+		9B4282462A20040D00C696A6 /* insideButtonTxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282312A20040D00C696A6 /* insideButtonTxtView.swift */; };
+		9B4282472A20040D00C696A6 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282322A20040D00C696A6 /* CompassView.swift */; };
+		9B4282482A20040D00C696A6 /* endWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282332A20040D00C696A6 /* endWorkout.swift */; };
+		9B4282492A20040D00C696A6 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282342A20040D00C696A6 /* ColorPickerView.swift */; };
+		9B42824B2A20040D00C696A6 /* activityRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282362A20040D00C696A6 /* activityRings.swift */; };
+		9B42824C2A20040D00C696A6 /* Stupid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282372A20040D00C696A6 /* Stupid.swift */; };
+		9B42824D2A20040D00C696A6 /* largeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282382A20040D00C696A6 /* largeTime.swift */; };
+		9B42824E2A20040D00C696A6 /* showAllWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282392A20040D00C696A6 /* showAllWeather.swift */; };
+		9B42824F2A20040D00C696A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42823A2A20040D00C696A6 /* ContentView.swift */; };
+		9B4282502A20040D00C696A6 /* timeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42823B2A20040D00C696A6 /* timeView.swift */; };
+		9B4282512A20040D00C696A6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42823C2A20040D00C696A6 /* ButtonView.swift */; };
+		9B4282522A20040D00C696A6 /* ShowWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42823D2A20040D00C696A6 /* ShowWeather.swift */; };
+		9B4282552A20043900C696A6 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282532A20043900C696A6 /* Atomic.swift */; };
+		9B4282562A20043900C696A6 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282542A20043900C696A6 /* GetLocation.swift */; };
+		9B4282672A20046900C696A6 /* CLLocationWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282582A20046800C696A6 /* CLLocationWatch.swift */; };
+		9B4282682A20046900C696A6 /* stepCounterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282592A20046800C696A6 /* stepCounterExt.swift */; };
+		9B4282692A20046900C696A6 /* heartIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42825A2A20046900C696A6 /* heartIcon.swift */; };
+		9B42826A2A20046900C696A6 /* displayWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42825B2A20046900C696A6 /* displayWorkout.swift */; };
+		9B42826B2A20046900C696A6 /* HKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42825C2A20046900C696A6 /* HKExtensions.swift */; };
+		9B42826C2A20046900C696A6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42825D2A20046900C696A6 /* Date.swift */; };
+		9B42826E2A20046900C696A6 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42825F2A20046900C696A6 /* Color+Ext.swift */; };
+		9B42826F2A20046900C696A6 /* WorkoutManagerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282602A20046900C696A6 /* WorkoutManagerExt.swift */; };
+		9B4282702A20046900C696A6 /* ForecastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282612A20046900C696A6 /* ForecastInfo.swift */; };
+		9B4282712A20046900C696A6 /* DistanceTrackerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282622A20046900C696A6 /* DistanceTrackerExtensions.swift */; };
+		9B4282722A20046900C696A6 /* gpEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282632A20046900C696A6 /* gpEssentials.swift */; };
+		9B4282732A20046900C696A6 /* viewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282642A20046900C696A6 /* viewExt.swift */; };
+		9B4282742A20046900C696A6 /* colorHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282652A20046900C696A6 /* colorHeartBeat.swift */; };
+		9B4282752A20046900C696A6 /* WriteGPSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282662A20046900C696A6 /* WriteGPSData.swift */; };
+		9B42827E2A20049400C696A6 /* PrecipChanceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282772A20049300C696A6 /* PrecipChanceColor.swift */; };
+		9B42827F2A20049400C696A6 /* TimeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282782A20049300C696A6 /* TimeUnit.swift */; };
+		9B4282802A20049400C696A6 /* Cardinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282792A20049400C696A6 /* Cardinal.swift */; };
+		9B4282812A20049400C696A6 /* WeatherConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42827A2A20049400C696A6 /* WeatherConditions.swift */; };
+		9B4282822A20049400C696A6 /* temperatureColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42827B2A20049400C696A6 /* temperatureColor.swift */; };
+		9B4282832A20049400C696A6 /* WorkoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42827C2A20049400C696A6 /* WorkoutType.swift */; };
+		9B4282842A20049400C696A6 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42827D2A20049400C696A6 /* Haptics.swift */; };
+		9B4282872A2004BA00C696A6 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282862A2004BA00C696A6 /* AlertItem.swift */; };
+		9B4282892A2004E000C696A6 /* AltitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282882A2004E000C696A6 /* AltitudeManager.swift */; };
+		9B42828E2A20053400C696A6 /* AltitudeLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42828B2A20053400C696A6 /* AltitudeLineChartView.swift */; };
+		9B42828F2A20053400C696A6 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42828C2A20053400C696A6 /* AlertView.swift */; };
+		9B4282902A20053400C696A6 /* locationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42828D2A20053400C696A6 /* locationProgressView.swift */; };
+		9B4282962A2013EA00C696A6 /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4282952A2013EA00C696A6 /* CLLocation.swift */; };
+		9B6AF5CE2A2552400066A2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4281C52A1FFF5A00C696A6 /* Assets.xcassets */; };
+		9BC4F0E42A262F4300A5D42E /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4F0E32A262F4300A5D42E /* WeatherKit.framework */; };
+		9BC4F0E72A27839200A5D42E /* Helthkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0E62A27839200A5D42E /* Helthkit.swift */; };
+		9BC4F0E92A2783D100A5D42E /* WorkoutListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0E82A2783D100A5D42E /* WorkoutListItem.swift */; };
+		9BC4F0EC2A27846600A5D42E /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0EB2A27846600A5D42E /* ActivityType.swift */; };
+		9BC4F0EE2A2784A100A5D42E /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0ED2A2784A100A5D42E /* WorkoutList.swift */; };
+		9BC4F0F02A2784C100A5D42E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0EF2A2784C100A5D42E /* Persistence.swift */; };
+		9BC4F0F32A27858A00A5D42E /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0F22A27858A00A5D42E /* CLLocation.swift */; };
+		9BC4F0F52A2785B600A5D42E /* distElevCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0F42A2785B600A5D42E /* distElevCalc.swift */; };
+		9BC4F0F82A2785FC00A5D42E /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0F72A2785FC00A5D42E /* Modifiers.swift */; };
+		9BC4F0FB2A27863E00A5D42E /* PolyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0FA2A27863E00A5D42E /* PolyMapView.swift */; };
+		9BC4F0FD2A27866400A5D42E /* WorkoutMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0FC2A27866400A5D42E /* WorkoutMap.swift */; };
+		9BC4F0FF2A27867D00A5D42E /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4F0FE2A27867D00A5D42E /* Map.swift */; };
+		9BFFD9582A25726D00A8D400 /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFFD9572A25726D00A8D400 /* WeatherKit.framework */; };
+		9BFFD95C2A25772B00A8D400 /* BigMetric Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B4281E42A1FFF5A00C696A6 /* BigMetric Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B4281CF2A1FFF5A00C696A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4281B62A1FFF5900C696A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4281BD2A1FFF5900C696A6;
+			remoteInfo = BigMetric;
+		};
+		9B4281D92A1FFF5A00C696A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4281B62A1FFF5900C696A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4281BD2A1FFF5900C696A6;
+			remoteInfo = BigMetric;
+		};
+		9B4281F72A1FFF5B00C696A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4281B62A1FFF5900C696A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4281E32A1FFF5A00C696A6;
+			remoteInfo = "BigMetric Watch App";
+		};
+		9B4282012A1FFF5B00C696A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4281B62A1FFF5900C696A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4281E32A1FFF5A00C696A6;
+			remoteInfo = "BigMetric Watch App";
+		};
+		9BFFD95D2A25772B00A8D400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4281B62A1FFF5900C696A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4281E32A1FFF5A00C696A6;
+			remoteInfo = "BigMetric Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B42820D2A1FFF5B00C696A6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9BFFD95C2A25772B00A8D400 /* BigMetric Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B4281BE2A1FFF5900C696A6 /* BigMetric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMetric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4281C12A1FFF5900C696A6 /* BigMetricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetricApp.swift; sourceTree = "<group>"; };
+		9B4281C32A1FFF5900C696A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B4281C52A1FFF5A00C696A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B4281C82A1FFF5A00C696A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B4281CE2A1FFF5A00C696A6 /* BigMetricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMetricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4281D22A1FFF5A00C696A6 /* BigMetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetricTests.swift; sourceTree = "<group>"; };
+		9B4281D82A1FFF5A00C696A6 /* BigMetricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMetricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4281DC2A1FFF5A00C696A6 /* BigMetricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetricUITests.swift; sourceTree = "<group>"; };
+		9B4281DE2A1FFF5A00C696A6 /* BigMetricUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetricUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B4281E42A1FFF5A00C696A6 /* BigMetric Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BigMetric Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4281E92A1FFF5A00C696A6 /* BigMetricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetricApp.swift; sourceTree = "<group>"; };
+		9B4281EB2A1FFF5A00C696A6 /* BigMetriciOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetriciOSApp.swift; sourceTree = "<group>"; };
+		9B4281F02A1FFF5B00C696A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B4281F62A1FFF5B00C696A6 /* BigMetric Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigMetric Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4281FA2A1FFF5B00C696A6 /* BigMetric_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetric_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9B4282002A1FFF5B00C696A6 /* BigMetric Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigMetric Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4282042A1FFF5B00C696A6 /* BigMetric_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetric_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9B4282062A1FFF5B00C696A6 /* BigMetric_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMetric_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B42821E2A20002900C696A6 /* DistanceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTracker.swift; sourceTree = "<group>"; };
+		9B4282202A20016E00C696A6 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		9B4282222A2002F700C696A6 /* WeatherKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherKitManager.swift; sourceTree = "<group>"; };
+		9B4282262A2003DE00C696A6 /* GeoCodeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoCodeHelper.swift; sourceTree = "<group>"; };
+		9B4282292A20040C00C696A6 /* AltitudeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
+		9B42822A2A20040C00C696A6 /* WeatherStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherStatsView.swift; sourceTree = "<group>"; };
+		9B42822B2A20040C00C696A6 /* AltitudePointChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudePointChart.swift; sourceTree = "<group>"; };
+		9B42822C2A20040C00C696A6 /* smallDistanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = smallDistanceView.swift; sourceTree = "<group>"; };
+		9B42822D2A20040C00C696A6 /* showHeartBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showHeartBeat.swift; sourceTree = "<group>"; };
+		9B42822E2A20040C00C696A6 /* howFarGPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howFarGPS.swift; sourceTree = "<group>"; };
+		9B42822F2A20040C00C696A6 /* summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summary.swift; sourceTree = "<group>"; };
+		9B4282302A20040D00C696A6 /* debugScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = debugScreen.swift; sourceTree = "<group>"; };
+		9B4282312A20040D00C696A6 /* insideButtonTxtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insideButtonTxtView.swift; sourceTree = "<group>"; };
+		9B4282322A20040D00C696A6 /* CompassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		9B4282332A20040D00C696A6 /* endWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endWorkout.swift; sourceTree = "<group>"; };
+		9B4282342A20040D00C696A6 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		9B4282362A20040D00C696A6 /* activityRings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityRings.swift; sourceTree = "<group>"; };
+		9B4282372A20040D00C696A6 /* Stupid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stupid.swift; sourceTree = "<group>"; };
+		9B4282382A20040D00C696A6 /* largeTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = largeTime.swift; sourceTree = "<group>"; };
+		9B4282392A20040D00C696A6 /* showAllWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showAllWeather.swift; sourceTree = "<group>"; };
+		9B42823A2A20040D00C696A6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B42823B2A20040D00C696A6 /* timeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeView.swift; sourceTree = "<group>"; };
+		9B42823C2A20040D00C696A6 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9B42823D2A20040D00C696A6 /* ShowWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWeather.swift; sourceTree = "<group>"; };
+		9B4282532A20043900C696A6 /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		9B4282542A20043900C696A6 /* GetLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocation.swift; sourceTree = "<group>"; };
+		9B4282582A20046800C696A6 /* CLLocationWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationWatch.swift; sourceTree = "<group>"; };
+		9B4282592A20046800C696A6 /* stepCounterExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stepCounterExt.swift; sourceTree = "<group>"; };
+		9B42825A2A20046900C696A6 /* heartIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartIcon.swift; sourceTree = "<group>"; };
+		9B42825B2A20046900C696A6 /* displayWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayWorkout.swift; sourceTree = "<group>"; };
+		9B42825C2A20046900C696A6 /* HKExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKExtensions.swift; sourceTree = "<group>"; };
+		9B42825D2A20046900C696A6 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9B42825F2A20046900C696A6 /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		9B4282602A20046900C696A6 /* WorkoutManagerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManagerExt.swift; sourceTree = "<group>"; };
+		9B4282612A20046900C696A6 /* ForecastInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastInfo.swift; sourceTree = "<group>"; };
+		9B4282622A20046900C696A6 /* DistanceTrackerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceTrackerExtensions.swift; sourceTree = "<group>"; };
+		9B4282632A20046900C696A6 /* gpEssentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gpEssentials.swift; sourceTree = "<group>"; };
+		9B4282642A20046900C696A6 /* viewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewExt.swift; sourceTree = "<group>"; };
+		9B4282652A20046900C696A6 /* colorHeartBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorHeartBeat.swift; sourceTree = "<group>"; };
+		9B4282662A20046900C696A6 /* WriteGPSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteGPSData.swift; sourceTree = "<group>"; };
+		9B4282772A20049300C696A6 /* PrecipChanceColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrecipChanceColor.swift; sourceTree = "<group>"; };
+		9B4282782A20049300C696A6 /* TimeUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUnit.swift; sourceTree = "<group>"; };
+		9B4282792A20049400C696A6 /* Cardinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardinal.swift; sourceTree = "<group>"; };
+		9B42827A2A20049400C696A6 /* WeatherConditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherConditions.swift; sourceTree = "<group>"; };
+		9B42827B2A20049400C696A6 /* temperatureColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temperatureColor.swift; sourceTree = "<group>"; };
+		9B42827C2A20049400C696A6 /* WorkoutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutType.swift; sourceTree = "<group>"; };
+		9B42827D2A20049400C696A6 /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		9B4282862A2004BA00C696A6 /* AlertItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		9B4282882A2004E000C696A6 /* AltitudeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeManager.swift; sourceTree = "<group>"; };
+		9B42828B2A20053400C696A6 /* AltitudeLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeLineChartView.swift; sourceTree = "<group>"; };
+		9B42828C2A20053400C696A6 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		9B42828D2A20053400C696A6 /* locationProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationProgressView.swift; sourceTree = "<group>"; };
+		9B4282932A200D9A00C696A6 /* BigMetric-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BigMetric-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9B4282952A2013EA00C696A6 /* CLLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		9B4282972A2035CB00C696A6 /* BigMetric.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BigMetric.entitlements; sourceTree = "<group>"; };
+		9B4282982A20362E00C696A6 /* BigMetric Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BigMetric Watch App.entitlements"; sourceTree = "<group>"; };
+		9BC4F0E32A262F4300A5D42E /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/WeatherKit.framework; sourceTree = DEVELOPER_DIR; };
+		9BC4F0E62A27839200A5D42E /* Helthkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helthkit.swift; sourceTree = "<group>"; };
+		9BC4F0E82A2783D100A5D42E /* WorkoutListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListItem.swift; sourceTree = "<group>"; };
+		9BC4F0EB2A27846600A5D42E /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		9BC4F0ED2A2784A100A5D42E /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		9BC4F0EF2A2784C100A5D42E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9BC4F0F22A27858A00A5D42E /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		9BC4F0F42A2785B600A5D42E /* distElevCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distElevCalc.swift; sourceTree = "<group>"; };
+		9BC4F0F72A2785FC00A5D42E /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		9BC4F0FA2A27863E00A5D42E /* PolyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyMapView.swift; sourceTree = "<group>"; };
+		9BC4F0FC2A27866400A5D42E /* WorkoutMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMap.swift; sourceTree = "<group>"; };
+		9BC4F0FE2A27867D00A5D42E /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9BFFD9572A25726D00A8D400 /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.4.sdk/System/Library/Frameworks/WeatherKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B4281BB2A1FFF5900C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4F0E42A262F4300A5D42E /* WeatherKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281CB2A1FFF5A00C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281D52A1FFF5A00C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281E12A1FFF5A00C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFFD9582A25726D00A8D400 /* WeatherKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281F32A1FFF5B00C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281FD2A1FFF5B00C696A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B4281B52A1FFF5900C696A6 = {
+			isa = PBXGroup;
+			children = (
+				9B4281C52A1FFF5A00C696A6 /* Assets.xcassets */,
+				9B4282972A2035CB00C696A6 /* BigMetric.entitlements */,
+				9B4281C72A1FFF5A00C696A6 /* Preview Content */,
+				9B4281E92A1FFF5A00C696A6 /* BigMetricApp.swift */,
+				9B4281EB2A1FFF5A00C696A6 /* BigMetriciOSApp.swift */,
+				9B4281C02A1FFF5900C696A6 /* BigMetric iOS APP */,
+				9B4281E82A1FFF5A00C696A6 /* BigMetric Watch App */,
+				9B4281BF2A1FFF5900C696A6 /* Products */,
+				9BE077922A256CA4008C8C41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4281BF2A1FFF5900C696A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281BE2A1FFF5900C696A6 /* BigMetric.app */,
+				9B4281CE2A1FFF5A00C696A6 /* BigMetricTests.xctest */,
+				9B4281D82A1FFF5A00C696A6 /* BigMetricUITests.xctest */,
+				9B4281E42A1FFF5A00C696A6 /* BigMetric Watch App.app */,
+				9B4281F62A1FFF5B00C696A6 /* BigMetric Watch AppTests.xctest */,
+				9B4282002A1FFF5B00C696A6 /* BigMetric Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4281C02A1FFF5900C696A6 /* BigMetric iOS APP */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0F92A27861D00A5D42E /* Views */,
+				9BC4F0F62A2785E000A5D42E /* Models */,
+				9BC4F0F12A27857800A5D42E /* Extensions */,
+				9BC4F0EA2A27845100A5D42E /* Enums */,
+				9BC4F0E52A27836F00A5D42E /* Helpers */,
+				9B4281D12A1FFF5A00C696A6 /* BigMetricTests */,
+				9B4281DB2A1FFF5A00C696A6 /* BigMetricUITests */,
+				9B4281C12A1FFF5900C696A6 /* BigMetricApp.swift */,
+			);
+			path = "BigMetric iOS APP";
+			sourceTree = "<group>";
+		};
+		9B4281C72A1FFF5A00C696A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281C82A1FFF5A00C696A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B4281D12A1FFF5A00C696A6 /* BigMetricTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281D22A1FFF5A00C696A6 /* BigMetricTests.swift */,
+			);
+			path = BigMetricTests;
+			sourceTree = "<group>";
+		};
+		9B4281DB2A1FFF5A00C696A6 /* BigMetricUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281DC2A1FFF5A00C696A6 /* BigMetricUITests.swift */,
+				9B4281DE2A1FFF5A00C696A6 /* BigMetricUITestsLaunchTests.swift */,
+			);
+			path = BigMetricUITests;
+			sourceTree = "<group>";
+		};
+		9B4281E82A1FFF5A00C696A6 /* BigMetric Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282982A20362E00C696A6 /* BigMetric Watch App.entitlements */,
+				9B4282932A200D9A00C696A6 /* BigMetric-Info.plist */,
+				9B4281F92A1FFF5B00C696A6 /* BigMetric Watch AppTests */,
+				9B4282032A1FFF5B00C696A6 /* BigMetric Watch AppUITests */,
+				9B42821D2A20000A00C696A6 /* Classes */,
+				9B4282762A20047D00C696A6 /* Enums */,
+				9B4282572A20045000C696A6 /* Extensions */,
+				9B4282252A20039600C696A6 /* Helpers */,
+				9B4281EF2A1FFF5B00C696A6 /* Preview Content */,
+				9B4282242A20031D00C696A6 /* Structs */,
+				9B4282852A2004A600C696A6 /* Utilities */,
+				9B4282282A2003F000C696A6 /* Views */,
+			);
+			path = "BigMetric Watch App";
+			sourceTree = "<group>";
+		};
+		9B4281EF2A1FFF5B00C696A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281F02A1FFF5B00C696A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B4281F92A1FFF5B00C696A6 /* BigMetric Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4281FA2A1FFF5B00C696A6 /* BigMetric_Watch_AppTests.swift */,
+			);
+			path = "BigMetric Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9B4282032A1FFF5B00C696A6 /* BigMetric Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282042A1FFF5B00C696A6 /* BigMetric_Watch_AppUITests.swift */,
+				9B4282062A1FFF5B00C696A6 /* BigMetric_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BigMetric Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		9B42821D2A20000A00C696A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282882A2004E000C696A6 /* AltitudeManager.swift */,
+				9B42821E2A20002900C696A6 /* DistanceTracker.swift */,
+				9B4282222A2002F700C696A6 /* WeatherKitManager.swift */,
+				9B4282202A20016E00C696A6 /* WorkoutManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B4282242A20031D00C696A6 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				9B42828C2A20053400C696A6 /* AlertView.swift */,
+				9B42828B2A20053400C696A6 /* AltitudeLineChartView.swift */,
+				9B42828D2A20053400C696A6 /* locationProgressView.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		9B4282252A20039600C696A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282532A20043900C696A6 /* Atomic.swift */,
+				9B4282542A20043900C696A6 /* GetLocation.swift */,
+				9B4282262A2003DE00C696A6 /* GeoCodeHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9B4282282A2003F000C696A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282362A20040D00C696A6 /* activityRings.swift */,
+				9B42822B2A20040C00C696A6 /* AltitudePointChart.swift */,
+				9B4282292A20040C00C696A6 /* AltitudeView.swift */,
+				9B42823C2A20040D00C696A6 /* ButtonView.swift */,
+				9B4282342A20040D00C696A6 /* ColorPickerView.swift */,
+				9B4282322A20040D00C696A6 /* CompassView.swift */,
+				9B42823A2A20040D00C696A6 /* ContentView.swift */,
+				9B4282302A20040D00C696A6 /* debugScreen.swift */,
+				9B4282332A20040D00C696A6 /* endWorkout.swift */,
+				9B42822E2A20040C00C696A6 /* howFarGPS.swift */,
+				9B4282312A20040D00C696A6 /* insideButtonTxtView.swift */,
+				9B4282382A20040D00C696A6 /* largeTime.swift */,
+				9B4282392A20040D00C696A6 /* showAllWeather.swift */,
+				9B42822D2A20040C00C696A6 /* showHeartBeat.swift */,
+				9B42823D2A20040D00C696A6 /* ShowWeather.swift */,
+				9B42822C2A20040C00C696A6 /* smallDistanceView.swift */,
+				9B4282372A20040D00C696A6 /* Stupid.swift */,
+				9B42822F2A20040C00C696A6 /* summary.swift */,
+				9B42823B2A20040D00C696A6 /* timeView.swift */,
+				9B42822A2A20040C00C696A6 /* WeatherStatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B4282572A20045000C696A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282582A20046800C696A6 /* CLLocationWatch.swift */,
+				9B4282952A2013EA00C696A6 /* CLLocation.swift */,
+				9B42825F2A20046900C696A6 /* Color+Ext.swift */,
+				9B4282652A20046900C696A6 /* colorHeartBeat.swift */,
+				9B42825D2A20046900C696A6 /* Date.swift */,
+				9B42825B2A20046900C696A6 /* displayWorkout.swift */,
+				9B4282622A20046900C696A6 /* DistanceTrackerExtensions.swift */,
+				9B4282612A20046900C696A6 /* ForecastInfo.swift */,
+				9B4282632A20046900C696A6 /* gpEssentials.swift */,
+				9B42825A2A20046900C696A6 /* heartIcon.swift */,
+				9B42825C2A20046900C696A6 /* HKExtensions.swift */,
+				9B4282592A20046800C696A6 /* stepCounterExt.swift */,
+				9B4282642A20046900C696A6 /* viewExt.swift */,
+				9B4282602A20046900C696A6 /* WorkoutManagerExt.swift */,
+				9B4282662A20046900C696A6 /* WriteGPSData.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B4282762A20047D00C696A6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282792A20049400C696A6 /* Cardinal.swift */,
+				9B42827D2A20049400C696A6 /* Haptics.swift */,
+				9B4282772A20049300C696A6 /* PrecipChanceColor.swift */,
+				9B42827B2A20049400C696A6 /* temperatureColor.swift */,
+				9B4282782A20049300C696A6 /* TimeUnit.swift */,
+				9B42827A2A20049400C696A6 /* WeatherConditions.swift */,
+				9B42827C2A20049400C696A6 /* WorkoutType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9B4282852A2004A600C696A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B4282862A2004BA00C696A6 /* AlertItem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9BC4F0E52A27836F00A5D42E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0E62A27839200A5D42E /* Helthkit.swift */,
+				9BC4F0E82A2783D100A5D42E /* WorkoutListItem.swift */,
+				9BC4F0ED2A2784A100A5D42E /* WorkoutList.swift */,
+				9BC4F0EF2A2784C100A5D42E /* Persistence.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9BC4F0EA2A27845100A5D42E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0EB2A27846600A5D42E /* ActivityType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9BC4F0F12A27857800A5D42E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0F22A27858A00A5D42E /* CLLocation.swift */,
+				9BC4F0F42A2785B600A5D42E /* distElevCalc.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9BC4F0F62A2785E000A5D42E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0F72A2785FC00A5D42E /* Modifiers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BC4F0F92A27861D00A5D42E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0FA2A27863E00A5D42E /* PolyMapView.swift */,
+				9BC4F0FC2A27866400A5D42E /* WorkoutMap.swift */,
+				9BC4F0FE2A27867D00A5D42E /* Map.swift */,
+				9B4281C32A1FFF5900C696A6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BE077922A256CA4008C8C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4F0E32A262F4300A5D42E /* WeatherKit.framework */,
+				9BFFD9572A25726D00A8D400 /* WeatherKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4281BD2A1FFF5900C696A6 /* BigMetric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42820E2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric" */;
+			buildPhases = (
+				9B4281BA2A1FFF5900C696A6 /* Sources */,
+				9B4281BB2A1FFF5900C696A6 /* Frameworks */,
+				9B4281BC2A1FFF5900C696A6 /* Resources */,
+				9B42820D2A1FFF5B00C696A6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFFD95E2A25772B00A8D400 /* PBXTargetDependency */,
+			);
+			name = BigMetric;
+			productName = BigMetric;
+			productReference = 9B4281BE2A1FFF5900C696A6 /* BigMetric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B4281CD2A1FFF5A00C696A6 /* BigMetricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4282112A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetricTests" */;
+			buildPhases = (
+				9B4281CA2A1FFF5A00C696A6 /* Sources */,
+				9B4281CB2A1FFF5A00C696A6 /* Frameworks */,
+				9B4281CC2A1FFF5A00C696A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4281D02A1FFF5A00C696A6 /* PBXTargetDependency */,
+			);
+			name = BigMetricTests;
+			productName = BigMetricTests;
+			productReference = 9B4281CE2A1FFF5A00C696A6 /* BigMetricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B4281D72A1FFF5A00C696A6 /* BigMetricUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4282142A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetricUITests" */;
+			buildPhases = (
+				9B4281D42A1FFF5A00C696A6 /* Sources */,
+				9B4281D52A1FFF5A00C696A6 /* Frameworks */,
+				9B4281D62A1FFF5A00C696A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4281DA2A1FFF5A00C696A6 /* PBXTargetDependency */,
+			);
+			name = BigMetricUITests;
+			productName = BigMetricUITests;
+			productReference = 9B4281D82A1FFF5A00C696A6 /* BigMetricUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9B4281E32A1FFF5A00C696A6 /* BigMetric Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42820A2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch App" */;
+			buildPhases = (
+				9B4281E02A1FFF5A00C696A6 /* Sources */,
+				9B4281E12A1FFF5A00C696A6 /* Frameworks */,
+				9B4281E22A1FFF5A00C696A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BigMetric Watch App";
+			productName = "BigMetric Watch App";
+			productReference = 9B4281E42A1FFF5A00C696A6 /* BigMetric Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B4281F52A1FFF5B00C696A6 /* BigMetric Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4282172A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch AppTests" */;
+			buildPhases = (
+				9B4281F22A1FFF5B00C696A6 /* Sources */,
+				9B4281F32A1FFF5B00C696A6 /* Frameworks */,
+				9B4281F42A1FFF5B00C696A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4281F82A1FFF5B00C696A6 /* PBXTargetDependency */,
+			);
+			name = "BigMetric Watch AppTests";
+			productName = "BigMetric Watch AppTests";
+			productReference = 9B4281F62A1FFF5B00C696A6 /* BigMetric Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B4281FF2A1FFF5B00C696A6 /* BigMetric Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42821A2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch AppUITests" */;
+			buildPhases = (
+				9B4281FC2A1FFF5B00C696A6 /* Sources */,
+				9B4281FD2A1FFF5B00C696A6 /* Frameworks */,
+				9B4281FE2A1FFF5B00C696A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4282022A1FFF5B00C696A6 /* PBXTargetDependency */,
+			);
+			name = "BigMetric Watch AppUITests";
+			productName = "BigMetric Watch AppUITests";
+			productReference = 9B4282002A1FFF5B00C696A6 /* BigMetric Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B4281B62A1FFF5900C696A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9B4281BD2A1FFF5900C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9B4281CD2A1FFF5A00C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B4281BD2A1FFF5900C696A6;
+					};
+					9B4281D72A1FFF5A00C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B4281BD2A1FFF5900C696A6;
+					};
+					9B4281E32A1FFF5A00C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9B4281F52A1FFF5B00C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B4281E32A1FFF5A00C696A6;
+					};
+					9B4281FF2A1FFF5B00C696A6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B4281E32A1FFF5A00C696A6;
+					};
+				};
+			};
+			buildConfigurationList = 9B4281B92A1FFF5900C696A6 /* Build configuration list for PBXProject "BigMetric" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B4281B52A1FFF5900C696A6;
+			productRefGroup = 9B4281BF2A1FFF5900C696A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4281BD2A1FFF5900C696A6 /* BigMetric */,
+				9B4281CD2A1FFF5A00C696A6 /* BigMetricTests */,
+				9B4281D72A1FFF5A00C696A6 /* BigMetricUITests */,
+				9B4281E32A1FFF5A00C696A6 /* BigMetric Watch App */,
+				9B4281F52A1FFF5B00C696A6 /* BigMetric Watch AppTests */,
+				9B4281FF2A1FFF5B00C696A6 /* BigMetric Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4281BC2A1FFF5900C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4281C62A1FFF5A00C696A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281CC2A1FFF5A00C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281D62A1FFF5A00C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281E22A1FFF5A00C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6AF5CE2A2552400066A2BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281F42A1FFF5B00C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281FE2A1FFF5B00C696A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B4281BA2A1FFF5900C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4F0E72A27839200A5D42E /* Helthkit.swift in Sources */,
+				9BC4F0F52A2785B600A5D42E /* distElevCalc.swift in Sources */,
+				9BC4F0FF2A27867D00A5D42E /* Map.swift in Sources */,
+				9BC4F0EC2A27846600A5D42E /* ActivityType.swift in Sources */,
+				9B4281C42A1FFF5900C696A6 /* ContentView.swift in Sources */,
+				9BC4F0FD2A27866400A5D42E /* WorkoutMap.swift in Sources */,
+				9BC4F0F82A2785FC00A5D42E /* Modifiers.swift in Sources */,
+				9BC4F0FB2A27863E00A5D42E /* PolyMapView.swift in Sources */,
+				9BC4F0F32A27858A00A5D42E /* CLLocation.swift in Sources */,
+				9BC4F0F02A2784C100A5D42E /* Persistence.swift in Sources */,
+				9BC4F0EE2A2784A100A5D42E /* WorkoutList.swift in Sources */,
+				9BC4F0E92A2783D100A5D42E /* WorkoutListItem.swift in Sources */,
+				9B4281C22A1FFF5900C696A6 /* BigMetricApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281CA2A1FFF5A00C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4281D32A1FFF5A00C696A6 /* BigMetricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281D42A1FFF5A00C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4281DD2A1FFF5A00C696A6 /* BigMetricUITests.swift in Sources */,
+				9B4281DF2A1FFF5A00C696A6 /* BigMetricUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281E02A1FFF5A00C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42823E2A20040D00C696A6 /* AltitudeView.swift in Sources */,
+				9B4282272A2003DE00C696A6 /* GeoCodeHelper.swift in Sources */,
+				9B4282682A20046900C696A6 /* stepCounterExt.swift in Sources */,
+				9B4282832A20049400C696A6 /* WorkoutType.swift in Sources */,
+				9B4282502A20040D00C696A6 /* timeView.swift in Sources */,
+				9B42824F2A20040D00C696A6 /* ContentView.swift in Sources */,
+				9B4282902A20053400C696A6 /* locationProgressView.swift in Sources */,
+				9B42824B2A20040D00C696A6 /* activityRings.swift in Sources */,
+				9B4281EC2A1FFF5A00C696A6 /* BigMetriciOSApp.swift in Sources */,
+				9B4282692A20046900C696A6 /* heartIcon.swift in Sources */,
+				9B4282452A20040D00C696A6 /* debugScreen.swift in Sources */,
+				9B4282482A20040D00C696A6 /* endWorkout.swift in Sources */,
+				9B42826A2A20046900C696A6 /* displayWorkout.swift in Sources */,
+				9B4282822A20049400C696A6 /* temperatureColor.swift in Sources */,
+				9B42826F2A20046900C696A6 /* WorkoutManagerExt.swift in Sources */,
+				9B4282752A20046900C696A6 /* WriteGPSData.swift in Sources */,
+				9B4282732A20046900C696A6 /* viewExt.swift in Sources */,
+				9B4282672A20046900C696A6 /* CLLocationWatch.swift in Sources */,
+				9B42824E2A20040D00C696A6 /* showAllWeather.swift in Sources */,
+				9B42823F2A20040D00C696A6 /* WeatherStatsView.swift in Sources */,
+				9B4282212A20016F00C696A6 /* WorkoutManager.swift in Sources */,
+				9B42826C2A20046900C696A6 /* Date.swift in Sources */,
+				9B4282552A20043900C696A6 /* Atomic.swift in Sources */,
+				9B4281EA2A1FFF5A00C696A6 /* BigMetricApp.swift in Sources */,
+				9B42826B2A20046900C696A6 /* HKExtensions.swift in Sources */,
+				9B42828F2A20053400C696A6 /* AlertView.swift in Sources */,
+				9B4282802A20049400C696A6 /* Cardinal.swift in Sources */,
+				9B4282442A20040D00C696A6 /* summary.swift in Sources */,
+				9B4282402A20040D00C696A6 /* AltitudePointChart.swift in Sources */,
+				9B4282412A20040D00C696A6 /* smallDistanceView.swift in Sources */,
+				9B4282422A20040D00C696A6 /* showHeartBeat.swift in Sources */,
+				9B4282462A20040D00C696A6 /* insideButtonTxtView.swift in Sources */,
+				9B42828E2A20053400C696A6 /* AltitudeLineChartView.swift in Sources */,
+				9B42824C2A20040D00C696A6 /* Stupid.swift in Sources */,
+				9B42824D2A20040D00C696A6 /* largeTime.swift in Sources */,
+				9B4282962A2013EA00C696A6 /* CLLocation.swift in Sources */,
+				9B4282722A20046900C696A6 /* gpEssentials.swift in Sources */,
+				9B4282702A20046900C696A6 /* ForecastInfo.swift in Sources */,
+				9B42821F2A20002900C696A6 /* DistanceTracker.swift in Sources */,
+				9B4282842A20049400C696A6 /* Haptics.swift in Sources */,
+				9B4282872A2004BA00C696A6 /* AlertItem.swift in Sources */,
+				9B4282492A20040D00C696A6 /* ColorPickerView.swift in Sources */,
+				9B4282512A20040D00C696A6 /* ButtonView.swift in Sources */,
+				9B42826E2A20046900C696A6 /* Color+Ext.swift in Sources */,
+				9B42827E2A20049400C696A6 /* PrecipChanceColor.swift in Sources */,
+				9B4282712A20046900C696A6 /* DistanceTrackerExtensions.swift in Sources */,
+				9B4282742A20046900C696A6 /* colorHeartBeat.swift in Sources */,
+				9B4282472A20040D00C696A6 /* CompassView.swift in Sources */,
+				9B4282562A20043900C696A6 /* GetLocation.swift in Sources */,
+				9B4282522A20040D00C696A6 /* ShowWeather.swift in Sources */,
+				9B4282892A2004E000C696A6 /* AltitudeManager.swift in Sources */,
+				9B4282232A2002F700C696A6 /* WeatherKitManager.swift in Sources */,
+				9B4282812A20049400C696A6 /* WeatherConditions.swift in Sources */,
+				9B4282432A20040D00C696A6 /* howFarGPS.swift in Sources */,
+				9B42827F2A20049400C696A6 /* TimeUnit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281F22A1FFF5B00C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4281FB2A1FFF5B00C696A6 /* BigMetric_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4281FC2A1FFF5B00C696A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4282052A1FFF5B00C696A6 /* BigMetric_Watch_AppUITests.swift in Sources */,
+				9B4282072A1FFF5B00C696A6 /* BigMetric_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B4281D02A1FFF5A00C696A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4281BD2A1FFF5900C696A6 /* BigMetric */;
+			targetProxy = 9B4281CF2A1FFF5A00C696A6 /* PBXContainerItemProxy */;
+		};
+		9B4281DA2A1FFF5A00C696A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4281BD2A1FFF5900C696A6 /* BigMetric */;
+			targetProxy = 9B4281D92A1FFF5A00C696A6 /* PBXContainerItemProxy */;
+		};
+		9B4281F82A1FFF5B00C696A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4281E32A1FFF5A00C696A6 /* BigMetric Watch App */;
+			targetProxy = 9B4281F72A1FFF5B00C696A6 /* PBXContainerItemProxy */;
+		};
+		9B4282022A1FFF5B00C696A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4281E32A1FFF5A00C696A6 /* BigMetric Watch App */;
+			targetProxy = 9B4282012A1FFF5B00C696A6 /* PBXContainerItemProxy */;
+		};
+		9BFFD95E2A25772B00A8D400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4281E32A1FFF5A00C696A6 /* BigMetric Watch App */;
+			targetProxy = 9BFFD95D2A25772B00A8D400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B4282082A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.3;
+			};
+			name = Debug;
+		};
+		9B4282092A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.3;
+			};
+			name = Release;
+		};
+		9B42820B2A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "BigMetric Watch App/BigMetric Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BigMetric Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BigMetric Watch App/BigMetricWatch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BigMetric;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BigMetric needs acces to your health information to accurately display your locaiton and other pertinent metrics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BigMetric needs access to your Health Information";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BigMetric needs access to your location information to work properly";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BigMetric needs access to your location to show metrics";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.grantperry.BigMetric;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetric.watchkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		9B42820C2A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "BigMetric Watch App/BigMetric Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BigMetric Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BigMetric Watch App/BigMetricWatch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BigMetric;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BigMetric needs acces to your health information to accurately display your locaiton and other pertinent metrics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BigMetric needs access to your Health Information";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BigMetric needs access to your location information to work properly";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BigMetric needs access to your location to show metrics";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.grantperry.BigMetric;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetric.watchkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		9B42820F2A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iOS-AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = BigMetric.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BigMetric-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "BigMetric-info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BigMetric;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BigMetric needs access to HealthKit to display accurate metrics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BigMetric requires access to your health data to continue";
+				INFOPLIST_KEY_NSMotionUsageDescription = "BigMetrick requires access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		9B4282102A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iOS-AppIcon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = BigMetric.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BigMetric-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_CFBundleDisplayName = BigMetric;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "BigMetric needs access to HealthKit to display accurate metrics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "BigMetric requires access to your health data to continue";
+				INFOPLIST_KEY_NSMotionUsageDescription = "BigMetrick requires access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4282122A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigMetric.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigMetric";
+			};
+			name = Debug;
+		};
+		9B4282132A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigMetric.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigMetric";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4282152A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetricUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigMetric;
+			};
+			name = Debug;
+		};
+		9B4282162A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grantperry.BigMetricUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigMetric;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4282182A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grantperry.BigMetric-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigMetric Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigMetric Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		9B4282192A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grantperry.BigMetric-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigMetric Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BigMetric Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		9B42821B2A1FFF5B00C696A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grantperry.BigMetric-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BigMetric Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		9B42821C2A1FFF5B00C696A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KP3ZH5K2SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grantperry.BigMetric-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BigMetric Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B4281B92A1FFF5900C696A6 /* Build configuration list for PBXProject "BigMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4282082A1FFF5B00C696A6 /* Debug */,
+				9B4282092A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42820A2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42820B2A1FFF5B00C696A6 /* Debug */,
+				9B42820C2A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42820E2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42820F2A1FFF5B00C696A6 /* Debug */,
+				9B4282102A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4282112A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4282122A1FFF5B00C696A6 /* Debug */,
+				9B4282132A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4282142A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetricUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4282152A1FFF5B00C696A6 /* Debug */,
+				9B4282162A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4282172A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4282182A1FFF5B00C696A6 /* Debug */,
+				9B4282192A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42821A2A1FFF5B00C696A6 /* Build configuration list for PBXNativeTarget "BigMetric Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42821B2A1FFF5B00C696A6 /* Debug */,
+				9B42821C2A1FFF5B00C696A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B4281B62A1FFF5900C696A6 /* Project object */;
+}
